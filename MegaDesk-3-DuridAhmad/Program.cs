@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MegaDesk_3_DuridAhmad
+namespace MegaDesk_4_DuridAhmad
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace MegaDesk_3_DuridAhmad
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainMenu());
         }
     }
 }

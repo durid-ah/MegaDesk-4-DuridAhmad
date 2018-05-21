@@ -1,6 +1,6 @@
-﻿namespace MegaDesk_3_DuridAhmad
+﻿namespace MegaDesk_4_DuridAhmad
 {
-    partial class Form1
+    partial class DisplayQuote
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // DisplayQuote
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(787, 445);
+            this.MaximizeBox = false;
+            this.Name = "DisplayQuote";
+            this.Text = "DisplayQuote";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
